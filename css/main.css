@@ -10707,22 +10707,6 @@ header .avatar-container i {
   font-size: 20px;
   color: #ff7f00;
 }
-header .profile-options-modal .profile-options-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-header .profile-options-modal .profile-options-list li a {
-  display: block;
-  padding: 10px 0;
-  color: #495057;
-}
-header .profile-options-modal .profile-options-list li a i {
-  display: inline-block;
-  width: 18px;
-  text-align: center;
-  margin-right: 5px;
-}
 
 .btn.btn-primary {
   font-weight: 500;
@@ -10746,6 +10730,23 @@ header .profile-options-modal .profile-options-list li a i {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 4px;
+}
+
+.profile-options-modal .profile-options-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.profile-options-modal .profile-options-list li a {
+  display: block;
+  padding: 10px 0;
+  color: #495057;
+}
+.profile-options-modal .profile-options-list li a i {
+  display: inline-block;
+  width: 18px;
+  text-align: center;
+  margin-right: 5px;
 }
 
 .main {
